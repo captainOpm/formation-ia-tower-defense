@@ -1,0 +1,21 @@
+Projet Tower Defense Djikstra :
+###############################
+
+Pour réaliser ce TP, je suis parti d'un fork du projet de base utilisé lors du cours.
+
+Il suffit donc de lancer le projet dans Godot.
+
+Due au manque de temps (non disponible le weekend dernier + travail la semaine), j'ai chois d'apporter des modifications a l'unité Tank existante.
+
+Pour cela, j'ai modifié le fichier Enemy.gd en ciblant les Tank.
+
+Les modifications apportés sont les suivantes :
+
+	- A la destruction d'un tank, un armored car est invoqué
+	
+	- Lorsque le tank a perdu un certains nombre de hp, il change de destination et retourne vers la base ou il est soigné,
+	  Cette action ne s'effectue qu'une seule fois par Tank.
+
+Niveau gameplay, la mecanique est interessante car le tank garde le focus pendant sont demi tour, permettant eventuellement à d'autre unité de passer.
+
+Lien Github: https://github.com/captainOpm/tower_defense

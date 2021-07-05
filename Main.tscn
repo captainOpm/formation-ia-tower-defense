@@ -202,5 +202,6 @@ text = "Recommencer"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
 [connection signal="button_up" from="UI/Defeat/VBoxContainer/Button" to="UI" method="on_restart"]
 [connection signal="button_up" from="UI/Victory/VBoxContainer/Button" to="UI" method="on_restart"]
